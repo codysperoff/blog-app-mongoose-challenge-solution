@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: XQMXBUQuRXRZ83FctL/JAzPAcEunmHNV6apIowxMjISrCuusM6zhzHGRa3dqRMij7yQX5EmpdsAjCB6Urm93y3O5WDX0XZqqx3kuYXP0q2ma5O17Xv+jYTpdX25j0dofgITfa+8487EDeEsqotLtk00eHg8ljp9lxkXYJKCzr5tIeoYFeNUkW2V/H0QDN2K3QwGPhwA+8eCuDm8/qLdWF4+w1jZx8sumJrW1IYNCkyYkqjAF0taD0fAbVFCYYWdpEOgGj+d95EnkPASWkLOs9Trj3thXufIy+rDWGHun9Bz7B1FsK9gGXwX8m6zVGksLIPQiiGxppkHSBUK0GkeimQNLV5sOhiExRG+wv2NT2IasAILsBApovHoLKgZEvEIy7Dfy57LCdZHBsiYQ8hGuY6hgktg7ovwCTkstIX4c1uBnE+V+7347lo5/fvKRrpWT2NPSrSWE+x0q5n3mVgbGBLrZ5RycgjwUfzSzhqLij57sWUUnW35xNIN6qQK94v2aQ6SMpjTwp2J+im3EthIXngYgZiS4AE30k2NAUCTNnko01zKYKKMwXwDCH5jHH5oWLPNaJS8Y8XrVOileGvyrgIz+2g0QgATO12SxlID+nlz550M51aS7pcwuTI0cPUmyMoUHwP07KTmzs+T5ITiFEkmAVoj3YFQJoXgjz3gxJbA=
+    app: aqueous-fjord-38434
+  on:
+    repo: codysperoff/node-blog-app-mongoose-tests
